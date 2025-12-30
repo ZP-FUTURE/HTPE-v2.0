@@ -28,6 +28,7 @@ generation:
 train:
   global_batch_size: 64
   epochs: 500
+  eval_interval: 5
   num_workers: 8
   pin_memory: True
   val_split: 0.2
