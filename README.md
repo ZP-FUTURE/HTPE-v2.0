@@ -12,12 +12,7 @@
 
 <a id="-english"></a>
 
-## 🇺🇸 English
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg)
-![Hydra](https://img.shields.io/badge/Hydra-Config-blueviolet)
-![Task](https://img.shields.io/badge/Physics-High_Precision_Inversion-green)
+##  English
 
 > **Precision Physical Parameter Inversion System based on Hybrid CNN-Transformer Architecture**
 >
@@ -464,3 +459,4 @@ pendulum_server/
 | **$k_2$ (二次项)** | `< 0.0005` | **高精度**。可检测出 0.1mm 直径变化引起的阻力差异。 |
 | **噪声水平** | `< 0.005` | 准确估算传感器信噪比 (SNR)。 |
 ```
+
