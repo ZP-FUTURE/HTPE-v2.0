@@ -1,0 +1,21 @@
+# === 核心框架 ===
+# 注意：PyTorch 建议根据显卡版本单独安装，见下方说明
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# === 配置管理 (必须安装 hydra-core 而不是 hydra) ===
+hydra-core>=1.3.2
+omegaconf>=2.3.0
+
+# === 数据处理与科学计算 ===
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# === 进度条与可视化 ===
+tqdm>=4.65.0
+matplotlib>=3.7.0
+
+# === 可选：高级注意力加速 
+# flash-attn>=2.5.0

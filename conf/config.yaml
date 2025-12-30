@@ -1,0 +1,39 @@
+defaults:
+  - model: hybrid_cnn_transformer
+  - _self_
+
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+# ================= 物理环境 =================
+physics:
+  g: 9.81
+  L: 1.0          
+  m: 0.033        
+  theta0_deg: 15.0
+  t_max: 600.0    
+  dt: 0.00833333  
+
+# ================= 数据生成 =================
+generation:
+  save_dir: "datasets/train_data"
+  k1_range: [0.001, 0.030] 
+  k1_step: 0.001
+  k2_range: [0.0010, 0.0080]
+  k2_step: 0.0001
+  noise_range: [0.000, 0.050]
+  noise_step: 0.005
+
+train:
+  global_batch_size: 64
+  epochs: 500
+  num_workers: 8
+  pin_memory: True
+  val_split: 0.2
+  
+  optimizer:
+    lr: 5e-4
+    weight_decay: 1e-2
+    beta1: 0.9
+    beta2: 0.95
