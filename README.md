@@ -237,12 +237,7 @@ Under extremely weak signal conditions ($k_1, k_2 \approx 10^{-3}$):
 
 <a id="-chinese-中文"></a>
 
-## 🇨🇳 中文 (Chinese)
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg)
-![Hydra](https://img.shields.io/badge/Hydra-Config-blueviolet)
-![Task](https://img.shields.io/badge/Physics-High_Precision_Inversion-green)
+## 中文 (Chinese)
 
 > **基于混合 CNN-Transformer 架构的精密物理参数反演系统**
 >
@@ -459,4 +454,5 @@ pendulum_server/
 | **$k_2$ (二次项)** | `< 0.0005` | **高精度**。可检测出 0.1mm 直径变化引起的阻力差异。 |
 | **噪声水平** | `< 0.005` | 准确估算传感器信噪比 (SNR)。 |
 ```
+
 
